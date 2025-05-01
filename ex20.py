@@ -31,3 +31,12 @@ print_a_line(current_line, current_file)
 
 current_line = current_line +1
 print_a_line(current_line, current_file)
+
+# Research the shorthand notation +=
+# and rewrite the script to use += instead.
+print("short hand script")
+rewind(current_file)
+current_line = 1
+while current_line < 4:
+    print_a_line(current_line, current_file)
+    current_line += 1

@@ -1,11 +1,12 @@
 print("How old are you?", end=' ')
 age = input()
 print("How tall are you?", end=' ')
-print("How much do you weigh?", end=' '
+print("How much do you weigh?", end=' ')
 weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
+import sys
 script, filename = argv
 
 txt = open(filenme)
@@ -21,9 +22,8 @@ txt_again = open(file_again)
 print(txt_again_read())
 
 
-print('Let's practice everything.')
-print('You\'d need to know \'bout escapes
-      with \\ that do \n newlines and \t tabs.')
+print("Let's practice everything.")
+print('You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.')
 
 poem = """
 \tThe lovely world
@@ -34,12 +34,12 @@ and requires an explanation
 \n\t\twhere there is none.
 """
 
-print("--------------)
+print("--------------")
 print(poem)
-print(--------------")
+print("--------------")
 
 
-five = 10 - 2 + 3 -
+five = 10 - 2 + 3 - 6
 print(f"This should be five: {five}"
 
 def secret_formula(started)
